@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar.jsx";
 import ASCIIText from "./components/ASCIIText/ASCIIText.jsx";
 import About from "./components/About.jsx";
 import Education from "./components/Education.jsx";
+import Project from "./components/Projects.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -48,7 +49,7 @@ function App() {
       </div>
       <About/>
       <Education/>
-      <About/>
+      <Project/>
       <About/>
       <About/>
     </div>
