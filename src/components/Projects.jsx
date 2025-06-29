@@ -20,13 +20,11 @@ const Project = () => {
         <div className="w-80 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mx-4 p-4 rounded-2xl my-2 transition-transform duration-300 hover:scale-[1.03]">
           <img
             className="w-full rounded-xl"
-            src="https://raw.githubusercontent.com/mairohanhoon/My_Profile_Website/main/asset/school.jpg"
-            alt="Schooling"
+            src="https://raw.githubusercontent.com/mairohanhoon/Portfolio/refs/heads/main/src/assets/bookstore-image.png"
           />
-          <h1 className="text-center text-white font-extrabold mt-3">SCHOOLING</h1>
+          <h1 className="text-center text-white font-extrabold mt-3">Bookify</h1>
           <p className="text-sm text-center text-white font-semibold mt-2">
-            I completed my schooling from Rainbow Academy Se. Sec School, Haldwani. <br />
-            It was a memorable journey with amazing friends and our principal ma’am.
+            A platform to easily buy or sell your unused or unwanted books.
           </p>
         </div>
 
@@ -34,13 +32,12 @@ const Project = () => {
         <div className="w-80 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mx-4 p-4 rounded-2xl my-2 transition-transform duration-300 hover:scale-[1.03]">
           <img
             className="w-full rounded-xl"
-            src="https://raw.githubusercontent.com/mairohanhoon/My_Profile_Website/main/asset/dituniversity.jpg"
+            src="https://raw.githubusercontent.com/mairohanhoon/Portfolio/refs/heads/main/src/assets/git-lens-image.png"
             alt="College"
           />
-          <h1 className="text-center text-white font-extrabold mt-3">COLLEGE</h1>
+          <h1 className="text-center text-white font-extrabold mt-3">Git-Lens</h1>
           <p className="text-sm text-center text-white font-semibold mt-2">
-            I took admission in DIT University, Dehradun to start my engineering journey. <br />
-            So far, it’s been a growth curve both in academics and skills.
+            An app to fetch and display GitHub user details using the GitHub API.
           </p>
         </div>
       </div>

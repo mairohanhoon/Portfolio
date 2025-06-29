@@ -118,3 +118,19 @@
     @apply bg-background text-foreground;
   }
 }
+.morphing-text-wrapper {
+  margin-bottom: 4px; /* Reduce space below morphing text */
+  display: inline-block;
+  line-height: 1;
+}
+
+.morphing-text-wrapper span {
+  font-size: 2.5rem; /* or adjust as needed */
+  color: white;
+}
+
+.typing-animation {
+  margin-top: 4px; /* Reduce space above typing text */
+  display: inline-block;
+  line-height: 1;
+}
